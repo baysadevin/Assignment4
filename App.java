@@ -15,7 +15,7 @@ public class App {
         if (input == null) {
             return null;
         }
-        char[] chars = input.toCharArray();j 
+        char[] chars = input.toCharArray();
         int left = 0;
         int right = chars.length - 1;
         while (left < right) {
